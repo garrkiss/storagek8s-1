@@ -2,10 +2,10 @@
 
 ## Задание 1. Создать Deployment приложения, состоящего из двух контейнеров и обменивающихся данными.
 
-- [Манифест Deployment](https://github.com/garrkiss/kuber-network-2/blob/main/manifest/task1/frontend-deployment.yaml)
+- [Манифест Deployment](https://github.com/garrkiss/storagek8s-1/blob/main/manifest/deployment.yaml)
 
-![Ссылка](https://github.com/garrkiss/kuber-network-2/blob/main/img/1.png)
-![Ссылка](https://github.com/garrkiss/kuber-network-2/blob/main/img/2.png)
+![Ссылка](https://github.com/garrkiss/storagek8s-1/blob/main/img/1.png)
+![Ссылка](https://github.com/garrkiss/storagek8s-1/blob/main/img/2.png)
 
 
 ## Задание 2. Создать DaemonSet приложения, которое может прочитать логи ноды.
