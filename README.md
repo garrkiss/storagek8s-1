@@ -10,7 +10,6 @@
 
 ## Задание 2. Создать DaemonSet приложения, которое может прочитать логи ноды.
 
-- [Манифест Ingress](https://github.com/garrkiss/kuber-network-2/blob/main/manifest/task2/ingress.yaml)
+- [Манифест DaemonSet](https://github.com/garrkiss/storagek8s-1/blob/main/manifest/multitool-log-reader.yaml)
 
-![Ссылка](https://github.com/garrkiss/kuber-network-2/blob/main/img/5.png)
-![Ссылка](https://github.com/garrkiss/kuber-network-2/blob/main/img/3.png)
+![Ссылка](https://github.com/garrkiss/storagek8s-1/blob/main/img/3.png)

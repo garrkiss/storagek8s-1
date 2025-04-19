@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: multitool-log-reader
+  namespace: default
+  labels:
+    app: multitool-log-reader
+spec:
+  selector:
+    matchLabels:
+      app: multitool-log-reader
+  template:
+    metadata:
+      labels:
+        app: multitool-log-reader
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: host-logs
+          mountPath: /mnt/logs
+      volumes:
+      - name: host-logs
+        hostPath:
+          path: /var/log/syslog
